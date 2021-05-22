@@ -1,6 +1,10 @@
 # The C64 250407 replica
 
-I will release the kicad design files later. For now enjoy the interactive bom file.
+Update: I'm waiting for components now and will solder up the board soon. I will release the kicad files after that.
+
+![screenshot top](250407_1.0_3D_top.png)
+![screenshot bottom](250407_1.0_3D_bottom.png)
+![alt text](250407_-brd.svg)
 
 # Interactive-BOM
 
