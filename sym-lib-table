@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name KU-schematics-library)(type Legacy)(uri ${KIPRJMOD}/KU-schematics-library.lib)(options "")(descr ""))
+  (lib (name 250407_-rescue)(type Legacy)(uri ${KIPRJMOD}/250407_-rescue.lib)(options "")(descr ""))
+)

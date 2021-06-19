@@ -1,0 +1,16 @@
+(module CAP_POLY_100V_TH_P5.08_and_P12.07mm (layer F.Cu) (tedit 6068C1B3)
+  (fp_text reference REF** (at 9.525 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value CAP_POLY_100V_TH_P5.08_and_P12.07mm (at 8.89 2.54) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 12.7 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 5.08 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1.26 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
