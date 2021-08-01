@@ -10,7 +10,7 @@
 *~
 _autosave-*
 *.tmp
-*-rescue.lib
+#*-rescue.lib
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
