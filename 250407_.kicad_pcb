@@ -836,7 +836,7 @@
     (fp_text reference Q3 (at 5.08 -5.715) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.25)))
     )
-    (fp_text value TP298/2SD880 (at 2.54 2) (layer F.Fab)
+    (fp_text value TP29B/2SD880 (at 2.54 2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_poly (pts (xy 22.733 8.6995) (xy 2.7305 8.6995) (xy 2.7305 -3.6195) (xy 22.6695 -3.6195)) (layer F.Mask) (width 0.1))

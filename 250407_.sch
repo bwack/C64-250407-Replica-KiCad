@@ -2878,7 +2878,7 @@ L Transistor_BJT:TIP41 Q3
 U 1 1 605D0635
 P 9150 1650
 F 0 "Q3" H 9341 1696 50  0000 L CNN
-F 1 "TP298/2SD880" H 9341 1605 50  0000 L CNN
+F 1 "TP29B/2SD880" H 9341 1605 50  0000 L CNN
 F 2 "KU-14194HB-RevB-KiCad:TO-220-3_Horizontal_TabDown_250407" H 9400 1575 50  0001 L CIN
 F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF" H 9150 1650 50  0001 L CNN
 	1    9150 1650
