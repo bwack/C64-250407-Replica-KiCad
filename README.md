@@ -31,9 +31,12 @@ Please see the [BOM file](250407_bom.csv).
 
 # YouTube
 
-- Part1: https://www.youtube.com/watch?v=ox3BLlNSVFU
-- Part2: https://www.youtube.com/watch?v=tBIvXRH-Mj0
-- Part3: https://www.youtube.com/watch?v=Mg0gVhXbaxc
+Part 1-4:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ox3BLlNSVFU/0.jpg)](https://www.youtube.com/watch?v=ox3BLlNSVFU)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/tBIvXRH-Mj0/0.jpg)](https://www.youtube.com/watch?v=tBIvXRH-Mj0)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Mg0gVhXbaxc/0.jpg)](https://www.youtube.com/watch?v=Mg0gVhXbaxc)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/UPUVA1PZOOk/0.jpg)](https://www.youtube.com/watch?v=UPUVA1PZOOk)
 
 # License and Disclaimer
 
