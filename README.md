@@ -26,10 +26,6 @@ Please see the [BOM file](250407_bom.csv).
 Download the PDF file [250407_.pdf](250407_.pdf) for a high quality schematics.
 Checkout [this tweet](https://twitter.com/paulrickards/status/1371988589974847492) by Paul Rickards where he plots the KU motherboard schematics KU-14194HB :-)
 
-# Questions
-
-* Feel free post questions in the issues section. I will provide more information here later.
-
 # Change log
 - 2022-08-18: Schematics V1.2: symbol and ERC fixes (Pull request from Gabriele Gorla/GGLABS)
 - 2020-06-19: PCB and schematics V1.1: First release
