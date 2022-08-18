@@ -5,12 +5,12 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 2
 Title "C64 250407 PCB Replica"
-Date "2021-06-19"
-Rev "1.1"
+Date "2022-08-18"
+Rev "1.2"
 Comp ""
 Comment1 "by BWACK"
 Comment2 "with help from Der Alte Bastler"
-Comment3 ""
+Comment3 "Schematics V1.2 for Board V1.1"
 Comment4 ""
 $EndDescr
 $Sheet
@@ -97,7 +97,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 1500 1550 1600
 $Comp
-L KU-schematics-library:FERRITE_BEAD FB18
+L 250407_-rescue:FERRITE_BEAD-KU-schematics-library FB18
 U 1 1 605D0086
 P 1800 2700
 AR Path="/605D0086" Ref="FB18"  Part="1" 
@@ -123,7 +123,7 @@ F 3 "" H 1600 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KU-schematics-library:USER_PORT_CON CN2
+L 250407_-rescue:USER_PORT_CON-KU-schematics-library CN2
 U 1 1 605D0092
 P 1500 9100
 AR Path="/605D0092" Ref="CN2"  Part="1" 
@@ -469,7 +469,7 @@ CONTROL PORT1
 Text Notes 1000 4750 1    79   Italic 0
 (MALE DB9)
 $Comp
-L KU-schematics-library:CONTROL_PORT CN8
+L 250407_-rescue:CONTROL_PORT-KU-schematics-library CN8
 U 1 1 605D013F
 P 1500 3300
 AR Path="/605D013F" Ref="CN8"  Part="1" 
@@ -482,7 +482,7 @@ F 3 "" H 1500 3700 118 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-schematics-library:CONTROL_PORT CN9
+L 250407_-rescue:CONTROL_PORT-KU-schematics-library CN9
 U 1 1 605D0145
 P 1500 4400
 AR Path="/605D0145" Ref="CN9"  Part="1" 
@@ -949,7 +949,7 @@ F 3 "" H 2250 1650 50  0001 C CNN
 $EndComp
 Connection ~ 2250 1650
 $Comp
-L KU-schematics-library:4066_U28 U28
+L 250407_-rescue:4066_U28-KU-schematics-library U28
 U 1 1 605D023D
 P 2300 2000
 F 0 "U28" H 1900 2100 75  0000 L CIN
@@ -1269,7 +1269,7 @@ Wire Wire Line
 Wire Wire Line
 	11750 7650 11700 7650
 $Comp
-L KU-schematics-library:6510_MPU U7
+L 250407_-rescue:6510_MPU-KU-schematics-library U7
 U 1 1 605D02F0
 P 5950 3050
 F 0 "U7" H 5989 3212 79  0000 R CNN
@@ -1895,7 +1895,7 @@ Wire Wire Line
 Text Label 8150 10650 2    50   ~ 0
 9VAC~~
 $Comp
-L KU-schematics-library:7408_U27 U27
+L 250407_-rescue:7408_U27-KU-schematics-library U27
 U 1 1 605D0438
 P 6700 10700
 F 0 "U27" H 6700 10700 50  0000 C CNN
@@ -3106,7 +3106,7 @@ F 3 "~" H 10100 9700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KU-schematics-library:CHOKE L4
+L 250407_-rescue:CHOKE-KU-schematics-library L4
 U 1 1 605D06B2
 P 9900 9950
 F 0 "L4" H 9975 10037 50  0000 L CNN
@@ -3150,7 +3150,7 @@ POWER INPUT
 Text Notes 11055 11148 2    79   Italic 0
 (7PIN MALE DIN)
 $Comp
-L KU-schematics-library:POWER_CON CN7
+L 250407_-rescue:POWER_CON-KU-schematics-library CN7
 U 1 1 605D06C8
 P 10550 10750
 F 0 "CN7" H 11074 10539 79  0000 C CNN
@@ -3664,7 +3664,7 @@ Wire Wire Line
 	10900 10650 10800 10650
 Connection ~ 10800 10650
 $Comp
-L KU-schematics-library:74LS629N U31
+L 250407_-rescue:74LS629N-KU-schematics-library U31
 U 1 1 605D083A
 P 9500 6700
 AR Path="/605D083A" Ref="U31"  Part="1" 
@@ -3840,7 +3840,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 4250 10100 4300
 $Comp
-L KU-schematics-library:74LS629N U31
+L 250407_-rescue:74LS629N-KU-schematics-library U31
 U 2 1 605D08D0
 P 10100 3950
 AR Path="/605D08D0" Ref="U31"  Part="2" 
@@ -3981,7 +3981,7 @@ F 3 "~" H 11900 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-schematics-library:74LS74 U29
+L 250407_-rescue:74LS74-KU-schematics-library U29
 U 1 1 605D0930
 P 11850 3500
 F 0 "U29" H 11700 3550 59  0000 L CNN
@@ -3992,7 +3992,7 @@ F 3 "" H 11850 3500 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-schematics-library:74LS74 U29
+L 250407_-rescue:74LS74-KU-schematics-library U29
 U 2 1 605D0936
 P 12700 5050
 F 0 "U29" H 12675 5104 59  0000 C CNN
@@ -4258,7 +4258,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 5900 15250 5900
 $Comp
-L KU-schematics-library:MC4044 U32
+L 250407_-rescue:MC4044-KU-schematics-library U32
 U 1 1 605D09EE
 P 13350 5000
 F 0 "U32" H 13350 5200 39  0000 C CNN
@@ -4269,7 +4269,7 @@ F 3 "" H 13350 5000 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-schematics-library:MC4044 U32
+L 250407_-rescue:MC4044-KU-schematics-library U32
 U 2 1 605D09F4
 P 13750 5000
 F 0 "U32" H 13750 5200 39  0000 C CNN
@@ -4280,7 +4280,7 @@ F 3 "" H 13750 5000 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-schematics-library:MC4044 U32
+L 250407_-rescue:MC4044-KU-schematics-library U32
 U 3 1 605D09FA
 P 14950 5200
 F 0 "U32" H 14850 5200 39  0000 L CNN
@@ -4296,7 +4296,7 @@ Wire Wire Line
 Text Label 12150 4900 0    28   ~ 0
 F_DIV
 $Comp
-L KU-schematics-library:74LS193 U30
+L 250407_-rescue:74LS193-KU-schematics-library U30
 U 1 1 605D0A03
 P 11250 4800
 F 0 "U30" H 11250 4800 59  0000 L CNN

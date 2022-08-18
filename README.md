@@ -1,6 +1,6 @@
 # The C64 250407 replica
 
-A replica of the Commodore 64 250407 1983 mother board, and a replica of the schematics made using SprintLayout and KiCad.
+A replica of the Commodore 64 250407 1983 mother board, and the schematics.
 
 The replica project was started by Michael K. (Der Alte Bastler) in 2019 to learn SprintLayout and the process of reverse engineering PCB. I finished it, importet it in KiCad, imported the KU motherboard schematics and modified it to match the 250407 Reb.B schematics.
 
@@ -21,13 +21,19 @@ Please see the [BOM file](250407_bom.csv).
 
 ![alt text](ibom-preview.png)
 
+# Schematics
+
+Download the PDF file [250407_.pdf](250407_.pdf) for a high quality schematics.
+Checkout [this tweet](https://twitter.com/paulrickards/status/1371988589974847492) by Paul Rickards where he plots the KU motherboard schematics KU-14194HB :-)
+
 # Questions
 
 * Feel free post questions in the issues section. I will provide more information here later.
 
 # Change log
-- 2020-06-19: V1.1: First release
-- 2020-04-22: V1.0: Prototype
+- 2022-08-18: Schematics V1.2: symbol and ERC fixes (Pull request from Gabriele Gorla/GGLABS)
+- 2020-06-19: PCB and schematics V1.1: First release
+- 2020-04-22: PCB and schematics V1.0: Prototype
 
 # YouTube
 

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L KU-schematics-library:R_ARRAY_US_4RES RP1
+L 250407_-rescue:R_ARRAY_US_4RES-KU-schematics-library RP1
 U 1 1 60633A40
 P 3600 1950
 F 0 "RP1" H 3653 1986 39  0001 L CNN
@@ -25,7 +25,7 @@ F 3 "" H 3600 1950 39  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KU-schematics-library:R_ARRAY_US_4RES RP1
+L 250407_-rescue:R_ARRAY_US_4RES-KU-schematics-library RP1
 U 2 1 60633A46
 P 3600 2150
 F 0 "RP1" H 3652 2186 39  0001 L CNN
@@ -36,7 +36,7 @@ F 3 "" H 3600 2150 39  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KU-schematics-library:R_ARRAY_US_4RES RP1
+L 250407_-rescue:R_ARRAY_US_4RES-KU-schematics-library RP1
 U 3 1 60633A4C
 P 3600 2050
 F 0 "RP1" H 3652 2086 39  0001 L CNN
@@ -47,7 +47,7 @@ F 3 "" H 3600 2050 39  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KU-schematics-library:R_ARRAY_US_4RES RP1
+L 250407_-rescue:R_ARRAY_US_4RES-KU-schematics-library RP1
 U 4 1 60633A52
 P 3600 1850
 F 0 "RP1" H 3652 1886 39  0001 L CNN
@@ -62,7 +62,7 @@ RP1
 Text Notes 3553 1807 0    39   ~ 0
 33
 $Comp
-L KU-schematics-library:74LS257 U25
+L 250407_-rescue:74LS257-KU-schematics-library U25
 U 1 1 60633A5A
 P 2350 3800
 F 0 "U25" H 2350 4250 63  0000 C CNN
@@ -88,7 +88,7 @@ RP2
 Text Notes 3553 2707 0    39   ~ 0
 33
 $Comp
-L KU-schematics-library:R_ARRAY_US_4RES RP2
+L 250407_-rescue:R_ARRAY_US_4RES-KU-schematics-library RP2
 U 4 1 60633A6E
 P 3600 2450
 F 0 "RP2" H 3652 2486 39  0001 L CNN
@@ -99,7 +99,7 @@ F 3 "" H 3600 2450 39  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KU-schematics-library:R_ARRAY_US_4RES RP2
+L 250407_-rescue:R_ARRAY_US_4RES-KU-schematics-library RP2
 U 3 1 60633A74
 P 3600 2350
 F 0 "RP2" H 3652 2386 39  0001 L CNN
@@ -110,7 +110,7 @@ F 3 "" H 3600 2350 39  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KU-schematics-library:R_ARRAY_US_4RES RP2
+L 250407_-rescue:R_ARRAY_US_4RES-KU-schematics-library RP2
 U 1 1 60633A7A
 P 3600 2250
 F 0 "RP2" H 3653 2286 39  0001 L CNN
@@ -143,7 +143,7 @@ Text Label 2700 2900 2    39   ~ 0
 Text Label 2500 4450 1    47   ~ 0
 ~CAS~
 $Comp
-L KU-schematics-library:R_ARRAY_US_4RES RP2
+L 250407_-rescue:R_ARRAY_US_4RES-KU-schematics-library RP2
 U 2 1 60633A98
 P 3600 2550
 F 0 "RP2" H 3652 2586 39  0001 L CNN
@@ -250,7 +250,7 @@ A8
 Text Label 1800 3950 0    50   ~ 0
 A0
 $Comp
-L KU-schematics-library:4164-2 U12
+L 250407_-rescue:4164-2-KU-schematics-library U12
 U 1 1 60633ACE
 P 4150 2400
 F 0 "U12" H 4053 2122 63  0000 L CNN
@@ -452,7 +452,7 @@ Connection ~ 2500 1800
 Wire Wire Line
 	2300 1250 2300 1800
 $Comp
-L KU-schematics-library:74LS257_U13 U13
+L 250407_-rescue:74LS257_U13-KU-schematics-library U13
 U 1 1 60633B47
 P 2350 2350
 F 0 "U13" H 2350 2550 63  0000 C CNN
@@ -465,7 +465,7 @@ $EndComp
 Text Label 3550 2850 0    50   ~ 0
 ~CASRAM~'
 $Comp
-L KU-schematics-library:7408_U27 U27
+L 250407_-rescue:7408_U27-KU-schematics-library U27
 U 2 1 60633B50
 P 1400 6300
 F 0 "U27" H 1400 6300 50  0000 C CNN
@@ -512,7 +512,7 @@ Text GLabel 1000 9400 0    63   Input ~ 0
 Text GLabel 1000 8600 0    63   Input ~ 0
 R\~W~
 $Comp
-L KU-schematics-library:2364A_ROM U3
+L 250407_-rescue:2364A_ROM-KU-schematics-library U3
 U 1 1 60633B6E
 P 4150 6000
 F 0 "U3" H 4050 6450 79  0000 L CIN
@@ -531,7 +531,7 @@ Text Notes 3900 6200 0    79   Italic 0
 Text Notes 3950 6350 0    79   Italic 0
 BFFF)
 $Comp
-L KU-schematics-library:2364A_ROM U4
+L 250407_-rescue:2364A_ROM-KU-schematics-library U4
 U 1 1 60633B78
 P 5500 6000
 F 0 "U4" H 5400 6450 79  0000 L CIN
@@ -851,7 +851,7 @@ A1
 Text Label 6150 6600 0    39   ~ 0
 A0
 $Comp
-L KU-schematics-library:2332A_ROM U5
+L 250407_-rescue:2332A_ROM-KU-schematics-library U5
 U 1 1 60633C41
 P 6850 6000
 F 0 "U5" H 6750 6450 79  0000 L CIN
@@ -1051,7 +1051,7 @@ Wire Wire Line
 Text Label 3450 8600 0    50   ~ 0
 R\~W~
 $Comp
-L KU-schematics-library:EXPANSION_PORT CN6
+L 250407_-rescue:EXPANSION_PORT-KU-schematics-library CN6
 U 1 1 60633CA9
 P 3350 10500
 F 0 "CN6" H 7751 10380 118 0000 C CIN
@@ -1178,7 +1178,7 @@ Connection ~ 2600 10050
 Wire Wire Line
 	2600 10050 2600 10300
 $Comp
-L KU-schematics-library:FERRITE_BEAD FB?
+L 250407_-rescue:FERRITE_BEAD-KU-schematics-library FB?
 U 1 1 60633CED
 P 1900 9600
 AR Path="/60633CED" Ref="FB?"  Part="1" 
@@ -1978,7 +1978,7 @@ VA0
 Wire Wire Line
 	2900 1050 1600 1050
 $Comp
-L KU-schematics-library:74LS258 U14
+L 250407_-rescue:74LS258-KU-schematics-library U14
 U 1 1 60633EA7
 P 9800 1400
 F 0 "U14" H 9800 1500 63  0000 C CNN
@@ -2042,7 +2042,7 @@ Text Label 10300 1650 0    50   ~ 0
 Text Label 10300 1850 0    50   ~ 0
 ~VA14~
 $Comp
-L KU-schematics-library:4066_U28 U16
+L 250407_-rescue:4066_U28-KU-schematics-library U16
 U 1 1 60633ED5
 P 9900 3350
 F 0 "U16" H 9638 3472 75  0000 C CIN
@@ -2072,7 +2072,7 @@ Connection ~ 9150 1250
 Wire Wire Line
 	9150 1250 9450 1250
 $Comp
-L KU-schematics-library:VIC U?
+L 250407_-rescue:VIC-KU-schematics-library U?
 U 1 1 60633EE5
 P 11850 3600
 AR Path="/60633EE5" Ref="U?"  Part="1" 
@@ -2126,7 +2126,7 @@ F 3 "" H 10500 5850 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-schematics-library:74LS373 U26
+L 250407_-rescue:74LS373-KU-schematics-library U26
 U 1 1 60633F0C
 P 8400 6200
 F 0 "U26" H 8350 6250 63  0000 L CNN
@@ -2243,7 +2243,7 @@ VA0
 Text Label 9000 6050 0    50   ~ 0
 AEC
 $Comp
-L KU-schematics-library:4164-2 U24
+L 250407_-rescue:4164-2-KU-schematics-library U24
 U 1 1 60633F47
 P 4650 2400
 F 0 "U24" H 4557 2116 63  0000 L CNN
@@ -2298,7 +2298,7 @@ R\~W~
 Text Label 4300 3050 0    0    ~ 0
 ~RAS~
 $Comp
-L KU-schematics-library:4164-2 U11
+L 250407_-rescue:4164-2-KU-schematics-library U11
 U 1 1 60633F63
 P 5150 2400
 F 0 "U11" H 5057 2116 63  0000 L CNN
@@ -2353,7 +2353,7 @@ R\~W~
 Text Label 4800 3050 0    0    ~ 0
 ~RAS~
 $Comp
-L KU-schematics-library:4164-2 U23
+L 250407_-rescue:4164-2-KU-schematics-library U23
 U 1 1 60633F7F
 P 5650 2400
 F 0 "U23" H 5557 2116 63  0000 L CNN
@@ -2408,7 +2408,7 @@ R\~W~
 Text Label 5300 3050 0    0    ~ 0
 ~RAS~
 $Comp
-L KU-schematics-library:4164-2 U10
+L 250407_-rescue:4164-2-KU-schematics-library U10
 U 1 1 60633F9B
 P 6150 2400
 F 0 "U10" H 6057 2116 63  0000 L CNN
@@ -2463,7 +2463,7 @@ R\~W~
 Text Label 5800 3050 0    0    ~ 0
 ~RAS~
 $Comp
-L KU-schematics-library:4164-2 U22
+L 250407_-rescue:4164-2-KU-schematics-library U22
 U 1 1 60633FB7
 P 6650 2400
 F 0 "U22" H 6557 2116 63  0000 L CNN
@@ -2562,7 +2562,7 @@ R\~W~
 Text Label 6800 3050 0    0    ~ 0
 ~RAS~
 $Comp
-L KU-schematics-library:4164-2 U21
+L 250407_-rescue:4164-2-KU-schematics-library U21
 U 1 1 60633FE9
 P 7650 2400
 F 0 "U21" H 7557 2116 63  0000 L CNN
@@ -2624,7 +2624,7 @@ Connection ~ 3900 3250
 Wire Wire Line
 	3900 3250 3900 4500
 $Comp
-L KU-schematics-library:4164-2 U9
+L 250407_-rescue:4164-2-KU-schematics-library U9
 U 1 1 60634009
 P 7150 2400
 F 0 "U9" H 7057 2116 63  0000 L CNN
@@ -3078,7 +3078,7 @@ F 3 "" H 10300 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-schematics-library:7408_U27 U27
+L 250407_-rescue:7408_U27-KU-schematics-library U27
 U 3 1 60634169
 P 10250 7500
 F 0 "U27" H 10250 7500 50  0000 C CNN
@@ -3367,7 +3367,7 @@ Connection ~ 12450 1650
 Wire Wire Line
 	12450 1650 12800 1650
 $Comp
-L KU-schematics-library:FERRITE_BEAD FB?
+L 250407_-rescue:FERRITE_BEAD-KU-schematics-library FB?
 U 1 1 60634221
 P 13100 1650
 AR Path="/60634221" Ref="FB?"  Part="1" 
@@ -3398,7 +3398,7 @@ F 3 "~" H 12450 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-schematics-library:FERRITE_BEAD FB?
+L 250407_-rescue:FERRITE_BEAD-KU-schematics-library FB?
 U 1 1 60634230
 P 12700 2150
 AR Path="/60634230" Ref="FB?"  Part="1" 
@@ -3498,7 +3498,7 @@ Text Label 12350 2700 0    50   ~ 0
 Wire Wire Line
 	13500 3100 13300 2700
 $Comp
-L KU-schematics-library:FERRITE_BEAD FB?
+L 250407_-rescue:FERRITE_BEAD-KU-schematics-library FB?
 U 1 1 60634280
 P 12550 3300
 AR Path="/60634280" Ref="FB?"  Part="1" 
@@ -3513,7 +3513,7 @@ F 3 "" H 12550 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-schematics-library:FERRITE_BEAD FB?
+L 250407_-rescue:FERRITE_BEAD-KU-schematics-library FB?
 U 1 1 60634286
 P 12550 3200
 AR Path="/60634286" Ref="FB?"  Part="1" 
@@ -3697,7 +3697,7 @@ F 3 "" H 13900 5750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KU-schematics-library:FERRITE_BEAD FB?
+L 250407_-rescue:FERRITE_BEAD-KU-schematics-library FB?
 U 1 1 60634302
 P 14150 5600
 AR Path="/60634302" Ref="FB?"  Part="1" 
@@ -3791,7 +3791,7 @@ F 3 "~" H 13900 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-schematics-library:FERRITE_BEAD FB?
+L 250407_-rescue:FERRITE_BEAD-KU-schematics-library FB?
 U 1 1 60634341
 P 14150 5000
 AR Path="/60634341" Ref="FB?"  Part="1" 
@@ -3857,7 +3857,7 @@ F 3 "~" H 13900 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-schematics-library:FERRITE_BEAD FB?
+L 250407_-rescue:FERRITE_BEAD-KU-schematics-library FB?
 U 1 1 6063437A
 P 14150 4600
 AR Path="/6063437A" Ref="FB?"  Part="1" 
@@ -3902,7 +3902,7 @@ F 3 "~" H 14000 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KU-schematics-library:SID U18
+L 250407_-rescue:SID-KU-schematics-library U18
 U 1 1 60634390
 P 13350 5600
 F 0 "U18" H 13350 6500 118 0000 C CNN
@@ -3941,7 +3941,7 @@ Wire Wire Line
 Wire Wire Line
 	12650 5900 12850 5900
 $Comp
-L KU-schematics-library:AV_CONN CN5
+L 250407_-rescue:AV_CONN-KU-schematics-library CN5
 U 1 1 606343A4
 P 15650 3650
 F 0 "CN5" V 15850 3050 79  0000 L CNN
@@ -5163,7 +5163,7 @@ Wire Wire Line
 Wire Wire Line
 	12750 3300 13500 3300
 $Comp
-L KU-schematics-library:7408_U27 U27
+L 250407_-rescue:7408_U27-KU-schematics-library U27
 U 4 1 60633B5A
 P 1400 8300
 F 0 "U27" H 1400 8300 50  0000 C CNN
