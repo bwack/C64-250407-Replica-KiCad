@@ -5,12 +5,12 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
 Title "C64 250407 PCB Replica"
-Date "2021-06-19"
-Rev "1.1"
+Date "2022-08-18"
+Rev "1.2"
 Comp ""
 Comment1 "by BWACK"
 Comment2 "with help from Der Alte Bastler"
-Comment3 ""
+Comment3 "Schematics V1.2 for Board V1.1"
 Comment4 ""
 $EndDescr
 $Comp
