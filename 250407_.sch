@@ -97,7 +97,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 1500 1550 1600
 $Comp
-L 250407_-rescue:FERRITE_BEAD-KU-schematics-library FB18
+L KU-schematics-library:FERRITE_BEAD FB18
 U 1 1 605D0086
 P 1800 2700
 AR Path="/605D0086" Ref="FB18"  Part="1" 
@@ -110,7 +110,7 @@ F 3 "" H 1800 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0101
+L 250407_-rescue:+5V-power #PWR0101
 U 1 1 605D008C
 P 1600 2700
 AR Path="/605D008C" Ref="#PWR0101"  Part="1" 
@@ -123,7 +123,7 @@ F 3 "" H 1600 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 250407_-rescue:USER_PORT_CON-KU-schematics-library CN2
+L KU-schematics-library:USER_PORT_CON CN2
 U 1 1 605D0092
 P 1500 9100
 AR Path="/605D0092" Ref="CN2"  Part="1" 
@@ -215,7 +215,7 @@ Connection ~ 1900 9600
 Wire Wire Line
 	1900 9600 2150 9600
 $Comp
-L power:+5V #PWR0102
+L 250407_-rescue:+5V-power #PWR0102
 U 1 1 605D00C1
 P 2150 9600
 AR Path="/605D00C1" Ref="#PWR0102"  Part="1" 
@@ -228,7 +228,7 @@ F 3 "" H 2150 9600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0103
+L 250407_-rescue:+5V-power #PWR0103
 U 1 1 605D00C7
 P 1800 7450
 AR Path="/605D00C7" Ref="#PWR0103"  Part="1" 
@@ -348,7 +348,7 @@ Connection ~ 2650 10900
 Wire Wire Line
 	2650 10900 2400 10900
 $Comp
-L power:+5V #PWR0104
+L 250407_-rescue:+5V-power #PWR0104
 U 1 1 605D0102
 P 2650 10550
 AR Path="/605D0102" Ref="#PWR0104"  Part="1" 
@@ -361,7 +361,7 @@ F 3 "" H 2650 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0105
+L 250407_-rescue:+5V-power #PWR0105
 U 1 1 605D0108
 P 3500 10200
 AR Path="/605D0108" Ref="#PWR0105"  Part="1" 
@@ -469,7 +469,7 @@ CONTROL PORT1
 Text Notes 1000 4750 1    79   Italic 0
 (MALE DB9)
 $Comp
-L 250407_-rescue:CONTROL_PORT-KU-schematics-library CN8
+L KU-schematics-library:CONTROL_PORT CN8
 U 1 1 605D013F
 P 1500 3300
 AR Path="/605D013F" Ref="CN8"  Part="1" 
@@ -482,7 +482,7 @@ F 3 "" H 1500 3700 118 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 250407_-rescue:CONTROL_PORT-KU-schematics-library CN9
+L KU-schematics-library:CONTROL_PORT CN9
 U 1 1 605D0145
 P 1500 4400
 AR Path="/605D0145" Ref="CN9"  Part="1" 
@@ -497,7 +497,7 @@ $EndComp
 Wire Wire Line
 	1575 6800 1500 6800
 $Comp
-L power:+5V #PWR0106
+L 250407_-rescue:+5V-power #PWR0106
 U 1 1 605D014C
 P 1575 6800
 AR Path="/605D014C" Ref="#PWR0106"  Part="1" 
@@ -674,7 +674,7 @@ F 3 "" H 4550 10650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0107
+L 250407_-rescue:+5V-power #PWR0107
 U 1 1 605D019F
 P 4550 10250
 AR Path="/605D019F" Ref="#PWR0107"  Part="1" 
@@ -844,7 +844,7 @@ $EndComp
 Wire Wire Line
 	3050 10600 3050 10550
 $Comp
-L power:+5V #PWR0108
+L 250407_-rescue:+5V-power #PWR0108
 U 1 1 605D01FB
 P 3050 10550
 AR Path="/605D01FB" Ref="#PWR0108"  Part="1" 
@@ -935,7 +935,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 1650 2100 1650
 $Comp
-L power:+5V #PWR0109
+L 250407_-rescue:+5V-power #PWR0109
 U 1 1 605D022A
 P 2250 1650
 AR Path="/605D022A" Ref="#PWR0109"  Part="1" 
@@ -949,7 +949,7 @@ F 3 "" H 2250 1650 50  0001 C CNN
 $EndComp
 Connection ~ 2250 1650
 $Comp
-L 250407_-rescue:4066_U28-KU-schematics-library U28
+L KU-schematics-library:4066_U28 U28
 U 1 1 605D023D
 P 2300 2000
 F 0 "U28" H 1900 2100 75  0000 L CIN
@@ -1130,7 +1130,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 7150 3450 7400
 $Comp
-L power:+5V #PWR0110
+L 250407_-rescue:+5V-power #PWR0110
 U 1 1 605D02A3
 P 2950 7100
 AR Path="/605D02A3" Ref="#PWR0110"  Part="1" 
@@ -1245,7 +1245,7 @@ Wire Wire Line
 Text Notes 5200 10300 0    50   ~ 0
 RP3\n3.3K
 $Comp
-L power:+5V #PWR0111
+L 250407_-rescue:+5V-power #PWR0111
 U 1 1 605D02DE
 P 5150 10500
 AR Path="/605D02DE" Ref="#PWR0111"  Part="1" 
@@ -1269,7 +1269,7 @@ Wire Wire Line
 Wire Wire Line
 	11750 7650 11700 7650
 $Comp
-L 250407_-rescue:6510_MPU-KU-schematics-library U7
+L KU-schematics-library:6510_MPU U7
 U 1 1 605D02F0
 P 5950 3050
 F 0 "U7" H 5989 3212 79  0000 R CNN
@@ -1306,7 +1306,7 @@ F 3 "~" H 6350 7350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0112
+L 250407_-rescue:+5V-power #PWR0112
 U 1 1 605D0302
 P 6100 7350
 AR Path="/605D0302" Ref="#PWR0112"  Part="1" 
@@ -1373,7 +1373,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 4800 5150 4900
 $Comp
-L power:+5V #PWR0113
+L 250407_-rescue:+5V-power #PWR0113
 U 1 1 605D0322
 P 5400 4800
 AR Path="/605D0322" Ref="#PWR0113"  Part="1" 
@@ -1392,7 +1392,7 @@ RP3\n3.3K
 Wire Wire Line
 	4950 4500 4950 4600
 $Comp
-L power:+5V #PWR0114
+L 250407_-rescue:+5V-power #PWR0114
 U 1 1 605D032B
 P 4950 4250
 AR Path="/605D032B" Ref="#PWR0114"  Part="1" 
@@ -1409,7 +1409,6 @@ Wire Wire Line
 	4950 4600 4950 7600
 Wire Wire Line
 	4950 4250 4950 4300
-Connection ~ 5400 4800
 $Comp
 L Device:C_Small C9
 U 1 1 605D0335
@@ -1464,7 +1463,7 @@ Wire Wire Line
 	5050 1100 4900 1100
 Connection ~ 5050 1100
 $Comp
-L power:+5V #PWR0115
+L 250407_-rescue:+5V-power #PWR0115
 U 1 1 605D0350
 P 4900 1100
 AR Path="/605D0350" Ref="#PWR0115"  Part="1" 
@@ -1500,7 +1499,7 @@ CASS_RD
 Text Notes 2900 850  0    50   ~ 0
 RP3\n3.3K
 $Comp
-L power:+5V #PWR0116
+L 250407_-rescue:+5V-power #PWR0116
 U 1 1 605D0361
 P 2850 900
 AR Path="/605D0361" Ref="#PWR0116"  Part="1" 
@@ -1622,11 +1621,10 @@ F 3 "" H 10850 7050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10850 7150 10850 7250
-Connection ~ 10850 7250
 Wire Wire Line
 	10850 6800 10850 6950
 $Comp
-L power:+5V #PWR0117
+L 250407_-rescue:+5V-power #PWR0117
 U 1 1 605D03B3
 P 11100 6800
 AR Path="/605D03B3" Ref="#PWR0117"  Part="1" 
@@ -1639,7 +1637,7 @@ F 3 "" H 11100 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0118
+L 250407_-rescue:+5V-power #PWR0118
 U 1 1 605D03B9
 P 10850 6800
 AR Path="/605D03B9" Ref="#PWR0118"  Part="1" 
@@ -1672,7 +1670,7 @@ Wire Wire Line
 	11700 6850 11700 6800
 Connection ~ 11700 6850
 $Comp
-L power:+5V #PWR0119
+L 250407_-rescue:+5V-power #PWR0119
 U 1 1 605D03C9
 P 11700 6800
 AR Path="/605D03C9" Ref="#PWR0119"  Part="1" 
@@ -1704,7 +1702,7 @@ Wire Wire Line
 Wire Wire Line
 	12350 6950 12350 6800
 $Comp
-L power:+5V #PWR0120
+L 250407_-rescue:+5V-power #PWR0120
 U 1 1 605D03D8
 P 12350 6800
 AR Path="/605D03D8" Ref="#PWR0120"  Part="1" 
@@ -1730,7 +1728,7 @@ F 3 "" H 10800 7650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR0121
+L 250407_-rescue:+5V-power #PWR0121
 U 1 1 605D03E4
 P 10700 7650
 AR Path="/605D03E4" Ref="#PWR0121"  Part="1" 
@@ -1796,7 +1794,7 @@ F 3 "~" H 6500 10500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0122
+L 250407_-rescue:+5V-power #PWR0122
 U 1 1 605D0407
 P 6900 10750
 AR Path="/605D0407" Ref="#PWR0122"  Part="1" 
@@ -1895,7 +1893,7 @@ Wire Wire Line
 Text Label 8150 10650 2    50   ~ 0
 9VAC~~
 $Comp
-L 250407_-rescue:7408_U27-KU-schematics-library U27
+L KU-schematics-library:7408_U27 U27
 U 1 1 605D0438
 P 6700 10700
 F 0 "U27" H 6700 10700 50  0000 C CNN
@@ -1906,7 +1904,7 @@ F 3 "" H 6650 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0123
+L 250407_-rescue:+5V-power #PWR0123
 U 1 1 605D0441
 P 6750 10500
 AR Path="/605D0441" Ref="#PWR0123"  Part="1" 
@@ -2332,7 +2330,7 @@ Text Label 6500 6400 0    50   ~ 0
 Text Notes 7650 7500 0    50   ~ 0
 RP4\n3.3K
 $Comp
-L power:+5V #PWR0124
+L 250407_-rescue:+5V-power #PWR0124
 U 1 1 605D051E
 P 8000 7000
 AR Path="/605D051E" Ref="#PWR0124"  Part="1" 
@@ -2549,7 +2547,7 @@ F 3 "" H 5500 800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR0125
+L 250407_-rescue:+5V-power #PWR0125
 U 1 1 605D0591
 P 5400 800
 AR Path="/605D0591" Ref="#PWR0125"  Part="1" 
@@ -2706,7 +2704,6 @@ Wire Wire Line
 Connection ~ 8550 1450
 Wire Wire Line
 	8300 1450 8300 1350
-Connection ~ 8300 1450
 Connection ~ 8600 1050
 Wire Wire Line
 	9250 1050 9250 1250
@@ -2784,7 +2781,7 @@ $EndComp
 Wire Wire Line
 	9550 2500 9450 2500
 $Comp
-L power:+5V #PWR0126
+L 250407_-rescue:+5V-power #PWR0126
 U 1 1 605D0606
 P 9450 2500
 AR Path="/605D0606" Ref="#PWR0126"  Part="1" 
@@ -2811,8 +2808,6 @@ F 3 "" H 10150 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10150 2600 10150 2700
-Wire Wire Line
-	9750 2500 9950 2500
 $Comp
 L KU-schematics-library:FERRITE_NARROW FB3
 U 1 1 605D0614
@@ -2841,9 +2836,6 @@ F 3 "" H 10450 2050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7450 800  7450 2200
-Wire Wire Line
-	10150 2500 9950 2500
-Connection ~ 9950 2500
 Wire Wire Line
 	8650 1450 8600 1450
 Connection ~ 8600 1450
@@ -2993,7 +2985,7 @@ Connection ~ 7500 3650
 Wire Wire Line
 	7500 3650 7650 3650
 $Comp
-L power:+5V #PWR0128
+L 250407_-rescue:+5V-power #PWR0128
 U 1 1 605D0672
 P 7650 3650
 AR Path="/605D0672" Ref="#PWR0128"  Part="1" 
@@ -3010,17 +3002,17 @@ Wire Wire Line
 Wire Wire Line
 	7850 4450 7850 5300
 $Comp
-L Connector_Generic:Conn_01x03 CN10
+L KU-schematics-library:LED_CONN CN10
 U 1 1 605D067A
-P 8750 10650
-F 0 "CN10" V 8913 10876 118 0000 R CNN
-F 1 "LED_CONNECTOR" V 8572 10462 50  0001 R CNN
-F 2 "KU-14194HB-RevB-KiCad:LED_CON" H 8750 10650 50  0001 C CNN
-F 3 "~" H 8750 10650 50  0001 C CNN
-	1    8750 10650
-	0    1    1    0   
+P 8750 10550
+F 0 "CN10" H 8750 10650 39  0000 C CNN
+F 1 "LED_CONNECTOR" V 8572 10362 50  0001 R CNN
+F 2 "KU-14194HB-RevB-KiCad:LED_CON" H 8750 10550 50  0001 C CNN
+F 3 "~" H 8750 10550 50  0001 C CNN
+	1    8750 10550
+	-1   0    0    1   
 $EndComp
-Text Notes 9232 11020 2    79   Italic 0
+Text Notes 9300 10850 2    79   Italic 0
 LED CONNECTOR
 $Comp
 L KU-schematics-library:FERRITE_NARROW FB20
@@ -3054,7 +3046,7 @@ Connection ~ 8850 10400
 Wire Wire Line
 	8850 10400 8850 10150
 $Comp
-L power:+5V #PWR0129
+L 250407_-rescue:+5V-power #PWR0129
 U 1 1 605D0699
 P 8850 9550
 AR Path="/605D0699" Ref="#PWR0129"  Part="1" 
@@ -3106,7 +3098,7 @@ F 3 "~" H 10100 9700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 250407_-rescue:CHOKE-KU-schematics-library L4
+L KU-schematics-library:CHOKE L4
 U 1 1 605D06B2
 P 9900 9950
 F 0 "L4" H 9975 10037 50  0000 L CNN
@@ -3150,7 +3142,7 @@ POWER INPUT
 Text Notes 11055 11148 2    79   Italic 0
 (7PIN MALE DIN)
 $Comp
-L 250407_-rescue:POWER_CON-KU-schematics-library CN7
+L KU-schematics-library:POWER_CON CN7
 U 1 1 605D06C8
 P 10550 10750
 F 0 "CN7" H 11074 10539 79  0000 C CNN
@@ -3215,7 +3207,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 10400 10300 10200
 $Comp
-L 250407_-rescue:POWER_SWITCH-KU-schematics-library SW1
+L KU-schematics-library:POWER_SWITCH SW1
 U 1 1 605D06EB
 P 10300 10400
 F 0 "SW1" H 10450 10450 50  0000 L CNN
@@ -3278,7 +3270,7 @@ F 3 "~" H 9550 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Fuse F1
+L KU-schematics-library:Fuse_ALT F1
 U 1 1 605D0718
 P 9900 9400
 F 0 "F1" H 9750 9469 50  0000 L CNN
@@ -3288,8 +3280,6 @@ F 3 "~" H 9900 9400 50  0001 C CNN
 	1    9900 9400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9900 9550 9900 9600
 Connection ~ 9900 9600
 Wire Wire Line
 	8250 9250 8250 10000
@@ -3329,7 +3319,7 @@ Connection ~ 11000 9150
 Wire Wire Line
 	11000 9150 11400 9150
 $Comp
-L power:+5V #PWR0130
+L 250407_-rescue:+5V-power #PWR0130
 U 1 1 605D073F
 P 10800 9050
 AR Path="/605D073F" Ref="#PWR0130"  Part="1" 
@@ -3384,7 +3374,6 @@ F 3 "" H 9900 8750 50  0001 C CNN
 	1    9900 8750
 	1    0    0    -1  
 $EndComp
-Connection ~ 9900 9250
 Wire Wire Line
 	10300 8500 9900 8500
 Wire Wire Line
@@ -3399,7 +3388,7 @@ Wire Wire Line
 	10300 8500 10300 7950
 Connection ~ 10300 8500
 $Comp
-L Diode:1N4001 CR6
+L Device:D_Small_ALT CR6
 U 1 1 605D076B
 P 9900 8150
 F 0 "CR6" V 9913 8229 50  0000 L CNN
@@ -3424,10 +3413,8 @@ Wire Wire Line
 	10300 7950 10200 7950
 Wire Wire Line
 	10000 7950 9900 7950
-Wire Wire Line
-	9900 8000 9900 7950
 $Comp
-L Diode:1N4001 CR5
+L Device:D_Small_ALT CR5
 U 1 1 605D077A
 P 9750 7950
 F 0 "CR5" H 9750 8166 50  0000 C CNN
@@ -3445,10 +3432,6 @@ Wire Wire Line
 	8150 9150 10300 9150
 Wire Wire Line
 	8250 9250 9900 9250
-Wire Wire Line
-	9900 8350 9900 8300
-Wire Wire Line
-	9600 7950 9450 7950
 Text Notes 10169 7885 2    50   ~ 0
 50V
 $Comp
@@ -3561,7 +3544,6 @@ Wire Wire Line
 	8400 7950 8250 7950
 Wire Wire Line
 	8400 8250 8400 8200
-Connection ~ 9900 7950
 $Comp
 L Device:C_Small C59
 U 1 1 605D07ED
@@ -3585,7 +3567,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 8350 9150 8350
 $Comp
-L power:+12V #PWR0131
+L 250407_-rescue:+12V-power #PWR0131
 U 1 1 605D07FE
 P 7950 7950
 F 0 "#PWR0131" H 7950 7800 50  0001 C CNN
@@ -3664,7 +3646,7 @@ Wire Wire Line
 	10900 10650 10800 10650
 Connection ~ 10800 10650
 $Comp
-L 250407_-rescue:74LS629N-KU-schematics-library U31
+L KU-schematics-library:74LS629N U31
 U 1 1 605D083A
 P 9500 6700
 AR Path="/605D083A" Ref="U31"  Part="1" 
@@ -3840,7 +3822,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 4250 10100 4300
 $Comp
-L 250407_-rescue:74LS629N-KU-schematics-library U31
+L KU-schematics-library:74LS629N U31
 U 2 1 605D08D0
 P 10100 3950
 AR Path="/605D08D0" Ref="U31"  Part="2" 
@@ -3944,7 +3926,6 @@ Wire Wire Line
 	11850 4500 12250 4500
 Wire Wire Line
 	11850 4500 11850 4550
-Connection ~ 12250 4500
 Text Label 11250 4300 3    50   ~ 0
 +Vc
 Wire Wire Line
@@ -3981,7 +3962,7 @@ F 3 "~" H 11900 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 250407_-rescue:74LS74-KU-schematics-library U29
+L KU-schematics-library:74LS74 U29
 U 1 1 605D0930
 P 11850 3500
 F 0 "U29" H 11700 3550 59  0000 L CNN
@@ -3992,7 +3973,7 @@ F 3 "" H 11850 3500 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 250407_-rescue:74LS74-KU-schematics-library U29
+L KU-schematics-library:74LS74 U29
 U 2 1 605D0936
 P 12700 5050
 F 0 "U29" H 12675 5104 59  0000 C CNN
@@ -4075,8 +4056,6 @@ $EndComp
 Connection ~ 10300 2950
 Wire Wire Line
 	12250 2950 12250 4200
-Wire Wire Line
-	11900 2950 12000 2950
 Connection ~ 12250 4200
 Wire Wire Line
 	12250 4200 12250 4500
@@ -4202,7 +4181,6 @@ Wire Wire Line
 	14300 5000 14300 4650
 Wire Wire Line
 	14300 4650 14700 4650
-Connection ~ 14300 5000
 $Comp
 L Device:C_Small C85
 U 1 1 605D09CD
@@ -4258,7 +4236,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 5900 15250 5900
 $Comp
-L 250407_-rescue:MC4044-KU-schematics-library U32
+L KU-schematics-library:MC4044 U32
 U 1 1 605D09EE
 P 13350 5000
 F 0 "U32" H 13350 5200 39  0000 C CNN
@@ -4269,7 +4247,7 @@ F 3 "" H 13350 5000 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 250407_-rescue:MC4044-KU-schematics-library U32
+L KU-schematics-library:MC4044 U32
 U 2 1 605D09F4
 P 13750 5000
 F 0 "U32" H 13750 5200 39  0000 C CNN
@@ -4280,7 +4258,7 @@ F 3 "" H 13750 5000 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 250407_-rescue:MC4044-KU-schematics-library U32
+L KU-schematics-library:MC4044 U32
 U 3 1 605D09FA
 P 14950 5200
 F 0 "U32" H 14850 5200 39  0000 L CNN
@@ -4296,7 +4274,7 @@ Wire Wire Line
 Text Label 12150 4900 0    28   ~ 0
 F_DIV
 $Comp
-L 250407_-rescue:74LS193-KU-schematics-library U30
+L KU-schematics-library:74LS193 U30
 U 1 1 605D0A03
 P 11250 4800
 F 0 "U30" H 11250 4800 59  0000 L CNN
@@ -4374,8 +4352,6 @@ F 3 "~" H 10200 3400 50  0001 C CNN
 	1    10200 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10600 4000 10750 4000
 $Comp
 L Device:CP_Small C108
 U 1 1 605D0A3E
@@ -4387,11 +4363,6 @@ F 3 "~" H 10750 4100 50  0001 C CNN
 	1    10750 4100
 	1    0    0    -1  
 $EndComp
-Connection ~ 10750 4000
-Connection ~ 9400 2950
-Wire Wire Line
-	9400 2950 10300 2950
-Connection ~ 8750 2950
 $Comp
 L Device:CP_Small C65
 U 1 1 605D0A4D
@@ -4418,8 +4389,6 @@ F 3 "~" H 8750 3050 50  0001 C CNN
 	1    8750 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8800 2950 8750 2950
 $Comp
 L Device:L L2
 U 1 1 605D0A67
@@ -4431,8 +4400,6 @@ F 3 "~" H 8950 2950 50  0001 C CNN
 	1    8950 2950
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9300 2950 9400 2950
 $Comp
 L KU-schematics-library:FERRITE_NARROW FB19
 U 1 1 605D0AA1
@@ -4448,8 +4415,6 @@ Wire Wire Line
 	9750 4750 10300 4750
 Text GLabel 8400 2750 0    39   Output ~ 0
 CAN+5V
-Wire Wire Line
-	8450 2950 8750 2950
 $Comp
 L Device:C_Small C82
 U 1 1 605D0AF5
@@ -4463,9 +4428,6 @@ F 3 "~" H 12000 3050 50  0001 C CNN
 	1    12000 3050
 	1    0    0    -1  
 $EndComp
-Connection ~ 12000 2950
-Wire Wire Line
-	12000 2950 12250 2950
 Wire Wire Line
 	6400 10600 6400 10500
 $Comp
@@ -5239,7 +5201,6 @@ Wire Wire Line
 	8450 2950 8450 2750
 Wire Wire Line
 	8450 2750 8400 2750
-Connection ~ 8450 2950
 Wire Notes Line width 10 style solid
 	10700 3000 10600 3000
 Wire Notes Line width 10 style solid
@@ -5300,8 +5261,6 @@ Wire Notes Line width 10 style solid
 	9300 3550 9300 3650
 Text Notes 9324 3638 0    50   ~ 0
 2
-Wire Wire Line
-	10750 4000 10900 4000
 Text Label 9650 1850 0    50   ~ 0
 CASS_PWR
 Wire Wire Line
@@ -5337,7 +5296,7 @@ F 3 "" H 10500 10650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 250407_-rescue:JUMPER_WIRE_DASHED-KU-schematics-library E2
+L KU-schematics-library:JUMPER_WIRE_DASHED E2
 U 1 1 60BFDC68
 P 11350 3050
 F 0 "E2" H 11350 3050 39  0001 C CNN
@@ -5348,7 +5307,7 @@ F 3 "" H 11350 3050 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 250407_-rescue:JUMPER_WIRE-KU-schematics-library E1
+L KU-schematics-library:JUMPER_WIRE E1
 U 1 1 605D0958
 P 11350 3150
 F 0 "E1" H 11350 3150 39  0001 C CNN
@@ -5389,6 +5348,45 @@ Wire Wire Line
 	8600 9500 8600 9650
 Wire Wire Line
 	8750 9500 8750 9950
+Wire Wire Line
+	9750 2500 9950 2500
+Wire Wire Line
+	11900 2950 12000 2950
+Wire Wire Line
+	10600 4000 10750 4000
+Wire Wire Line
+	9300 2950 9400 2950
+Wire Wire Line
+	8450 2950 8750 2950
+Connection ~ 9950 2500
+Wire Wire Line
+	9950 2500 10150 2500
+Wire Wire Line
+	9900 7950 9900 8050
+Wire Wire Line
+	9900 8250 9900 8350
+Wire Wire Line
+	9850 7950 9900 7950
+Connection ~ 9900 7950
+Wire Wire Line
+	9450 7950 9650 7950
+Wire Wire Line
+	9900 9300 9900 9250
+Connection ~ 9900 9250
+Wire Wire Line
+	9900 9500 9900 9600
+Connection ~ 9400 2950
+Wire Wire Line
+	9400 2950 10300 2950
+Connection ~ 8750 2950
+Wire Wire Line
+	8750 2950 8800 2950
+Connection ~ 10750 4000
+Wire Wire Line
+	10750 4000 10900 4000
+Connection ~ 12000 2950
+Wire Wire Line
+	12000 2950 12250 2950
 Wire Bus Line
 	7350 7100 7350 7400
 Wire Bus Line
