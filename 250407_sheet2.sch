@@ -5185,6 +5185,22 @@ F 3 "" H 1350 8300 50  0001 C CNN
 	4    1400 8300
 	1    0    0    1   
 $EndComp
+Text Notes 7200 10200 1    50   ~ 0
+(A000-BFFF OR           E000-FFFF) ~ROMH~
+Text Notes 7300 10200 1    50   ~ 0
+(8000-9FFF) ~ROML~
+Text Notes 9350 10200 1    50   ~ 0
+(DF00-DFFF) ~I/O2~
+Text Notes 9450 10200 1    50   ~ 0
+(DE00-DEFF) ~I/O1~
+Text Label 9300 8900 0    50   ~ 0
+~CIA1~
+Text Label 9300 9000 0    50   ~ 0
+~CIA2~
+Text Notes 9300 9100 0    50   ~ 0
+~I/O1~
+Text Notes 9250 9200 0    50   ~ 0
+~I/O2~
 Wire Bus Line
 	8400 9200 8400 9400
 Wire Bus Line
