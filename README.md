@@ -15,6 +15,9 @@ We are not the first to reverse engineer this board, but we are the first to sha
 
 Please see the [BOM file](250407_bom.csv).
 
+Note that some values were left blank because they depend on the clock circuit (PAL/NTSC), and PLA model. They never made it into the schematics. You can find them in a table to the right of the schematics for 250407.
+http://www.zimmers.net/anonftp/pub/cbm/schematics/computers/c64/index.html
+
 # Interactive-BOM
 
 [The interactive bom html page](https://htmlpreview.github.io/?https://raw.githubusercontent.com/bwack/C64-250407-Replica-KiCad/main/interactive-bom/ibom.html) is useful for assembling the board and finding signal traces by using a web browser. Try it here. For a BOM for ordering parts see the BOM above.
