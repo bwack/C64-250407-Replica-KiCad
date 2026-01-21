@@ -1,12 +1,12 @@
 # The C64 250407 replica
 
-A replica of the Commodore 64 250407 1983 mother board, and the schematics.
+A replica of the Commodore 64 Ver.250407  Rev.B motherboard, and matching schematics.
 
-The replica project was started by Michael K. (Der Alte Bastler) in 2019 to learn SprintLayout, and the process of reverse engineering PCB. I finished the layout in SprintLayout, and imported it to KiCad. The KU motherboard schematics is nowhere to be found on the internet. I used the 250407 Reb.B schematics as reference and modified it to match the KU motherboard layout.
+The replica project was started by Michael K. (Der Alte Bastler) in 2019 to learn SprintLayout, and the process of reverse engineering printed circuit boards. I finished the layout in SprintLayout, and imported it to KiCad. The KU motherboard schematics are nowhere to be found on the internet. Therefore I used the 250407 Reb.B schematics as reference and then modified them to match the KU motherboard layout.
 
-The board has been prototyped, and tested by me and Langwell Cowan.
+The board has been prototyped and tested by Langwell Cowan and I.
 
-We are not the first to reverse engineer this board, but we are the first to share the design files online.
+We are not the first to reverse engineer this board; but we are the first to share the design files online.
 
 ![screenshot top](250407_3D_top.png)
 ![screenshot bottom](250407_3D_bottom.png)
@@ -20,13 +20,13 @@ http://www.zimmers.net/anonftp/pub/cbm/schematics/computers/c64/index.html
 
 # Interactive-BOM
 
-[The interactive bom html page](https://htmlpreview.github.io/?https://raw.githubusercontent.com/bwack/C64-250407-Replica-KiCad/main/interactive-bom/ibom.html) is useful for assembling the board and finding signal traces by using a web browser. Try it here. For a BOM for ordering parts see the BOM above.
+[The interactive bom html page](https://htmlpreview.github.io/?https://raw.githubusercontent.com/bwack/C64-250407-Replica-KiCad/main/interactive-bom/ibom.html) is a useful tool for assembling the board and finding signal traces via a web browser. To order parts, Use the BOM document listed above. (Mouser and Digikey compatable)
 
 ![alt text](ibom-preview.png)
 
 # Schematics
 
-Download the PDF file [250407_.pdf](250407_.pdf) for a high quality schematics.
+Download the PDF file [250407_.pdf](250407_.pdf) for high quality schematics.
 Checkout [this tweet](https://twitter.com/paulrickards/status/1371988589974847492) by Paul Rickards where he plots the KU motherboard schematics KU-14194HB :-)
 
 # Change log
